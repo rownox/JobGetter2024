@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="Panels and Abstraction 3" />
+    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="Panels and Abstraction 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/panels/PanelContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/panels/PanelContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/panels/PanelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/panels/PanelEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/panels/sub/ResumeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/panels/sub/ResumeCreator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +48,10 @@
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/java/awt/CardLayout.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/java/awt/Component.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/java/awt/Container.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/java/awt/Frame.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/java/awt/Panel.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/javax/swing/JPanel.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/javax/swing/plaf/basic/BasicButtonListener.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -56,19 +64,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ResumeBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ResumeBuilder" />
@@ -127,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696381360034</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Panels and Abstraction 3">
+      <option name="closed" value="true" />
+      <created>1696385286068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696385286068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

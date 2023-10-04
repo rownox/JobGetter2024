@@ -5,13 +5,11 @@ import lombok.Getter;
 
 @Getter
 public enum PanelEnum {
-    RESUME_CREATOR(new ResumeCreator(), "resumeCreatorPage");
+    RESUME_CREATOR(new ResumeCreator());
 
     private final PanelContainer container;
-    private final String name;
 
-    PanelEnum(PanelContainer container, String name) {
+    PanelEnum(PanelContainer container) {
         this.container = container;
-        this.name = name;
     }
 }
