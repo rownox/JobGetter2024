@@ -5,7 +5,7 @@ import lombok.Getter;
 import javax.swing.*;
 
 @Getter
-public abstract class PanelContainer extends JFrame{
+public abstract class PanelContainer{
     protected final JPanel panel;
     protected final String name;
 
