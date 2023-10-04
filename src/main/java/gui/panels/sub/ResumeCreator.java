@@ -11,6 +11,7 @@ public class ResumeCreator extends PanelContainer {
 
     @Override
     protected void setup() {
-
+        JLabel text = new JLabel("Resume Creator");
+        panel.add(text);
     }
 }
