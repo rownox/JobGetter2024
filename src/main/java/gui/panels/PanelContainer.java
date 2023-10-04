@@ -11,9 +11,9 @@ public abstract class PanelContainer{
     public final JPanel panel;
 
     public PanelContainer(String name) {
-        this.panel = new JPanel();
+        this.panel = new JPanel(new BorderLayout());
         panel.setName(name);
-        panel.add(new JLabel(name), BorderLayout.NORTH);
+        MainPanel.cardContainer.add(panel, name);
     }
 
     protected abstract void setup();

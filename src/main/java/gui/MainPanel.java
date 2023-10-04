@@ -6,12 +6,16 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MainPanel extends JFrame {
-    public static JPanel panel;
     public static CardLayout cardLayout;
+    public static JPanel cardContainer;
 
     public MainPanel() {
+        cardContainer = new JPanel();
         cardLayout = new CardLayout();
-        panel = new JPanel(cardLayout);
+        cardContainer.setLayout(cardLayout);
+
+        add(cardContainer, BorderLayout.CENTER);
+        cardLayout.show(cardContainer, PanelEnum.MAIN.getContainer().panel.getName());
 
         setName("mainPanel");
         setTitle("Resume Builder 2024");
@@ -20,16 +24,5 @@ public class MainPanel extends JFrame {
         setResizable(true);
         setLocationRelativeTo(null);
         setVisible(true);
-
-        panel.setLayout(new BorderLayout());
-
-        JButton startButton = new JButton("Start Building Resume");
-        startButton.addActionListener(e ->
-                cardLayout.show(panel, PanelEnum.RESUME_CREATOR.getContainer().getPanel().getName())
-        );
-
-        panel.add(startButton, BorderLayout.SOUTH);
-
-        add(panel);
     }
 }

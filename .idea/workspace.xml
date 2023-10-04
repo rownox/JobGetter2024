@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="Panels and Abstraction 3">
+    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="simplification">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/panels/sub/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/MainPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/panels/PanelContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/panels/PanelContainer.java" afterDir="false" />
@@ -20,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -143,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696385286068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="simplification">
+      <option name="closed" value="true" />
+      <created>1696393080889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696393080889</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +183,7 @@
     <MESSAGE value="Panels and Abstraction" />
     <MESSAGE value="Panels and Abstraction 2" />
     <MESSAGE value="Panels and Abstraction 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Panels and Abstraction 3" />
+    <MESSAGE value="simplification" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplification" />
   </component>
 </project>

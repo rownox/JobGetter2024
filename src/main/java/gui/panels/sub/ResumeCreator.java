@@ -2,8 +2,10 @@ package gui.panels.sub;
 
 import gui.MainPanel;
 import gui.panels.PanelContainer;
+import gui.panels.PanelEnum;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,12 +18,11 @@ public class ResumeCreator extends PanelContainer {
     @Override
     protected void setup() {
 
-        JLabel text = new JLabel("Resume Creator");
-        panel.add(text);
-
         JButton previousPageButton = new JButton("Go Back");
-        previousPageButton.addActionListener(e ->
-                MainPanel.cardLayout.show(MainPanel.panel, MainPanel.panel.getName())
-        );
+        previousPageButton.addActionListener(e -> {
+            panel.setVisible(false);
+            MainPanel.cardLayout.show(MainPanel.cardContainer, PanelEnum.MAIN.getContainer().getPanel().getName());
+        });
+        panel.add(previousPageButton, BorderLayout.SOUTH);
     }
 }
