@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="Optimized Imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/Document.java" afterDir="false" />
+    <list default="true" id="86301bf9-7fc4-4b1c-a355-25e22d979a90" name="Changes" comment="pdf creator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/files/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/Document.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gui/panels/sub/ResumeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/panels/sub/ResumeCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,9 @@
     <setting file="jar://$USER_HOME$/.jdks/openjdk-21/lib/src.zip!/java.desktop/javax/swing/plaf/basic/BasicButtonListener.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29.jar!/org/apache/pdfbox/pdmodel/PDDocument.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.29/pdfbox-2.0.29.jar!/org/apache/pdfbox/pdmodel/PDPageContentStream.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -168,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696397279398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pdf creator">
+      <option name="closed" value="true" />
+      <created>1696433250305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696433250305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +212,7 @@
     <MESSAGE value="simplification" />
     <MESSAGE value="Working Panels" />
     <MESSAGE value="Optimized Imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized Imports" />
+    <MESSAGE value="pdf creator" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf creator" />
   </component>
 </project>

@@ -25,7 +25,6 @@ public class ResumeCreator extends PanelContainer {
         });
 
         JTextField textField = new JTextField();
-        textField.setText("Type here...");
         panel.add(textField, BorderLayout.NORTH);
 
         JButton finishResumeButton = new JButton("Finish Resume");

@@ -44,7 +44,7 @@ public class Document extends PDDocument{
         contentStream.setFont(PDType1Font.HELVETICA_BOLD, 12);
         contentStream.beginText();
         contentStream.newLineAtOffset(100, 700);
-        contentStream.showText("Hello, PDFBox!");
+        contentStream.showText("Hello");
         contentStream.endText();
 
         contentStream.close();
