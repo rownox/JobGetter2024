@@ -15,9 +15,9 @@ public class Main extends PanelContainer {
 
     @Override
     protected void setup() {
-        JButton buildResumeButton = new JButton("Build Resume");
-        JLabel title = new JLabel("Welcome!");
-        JLabel description = new JLabel("Begin creating your resume.");
+        final JButton buildResumeButton = new JButton("Build Resume");
+        final JLabel title = new JLabel("Welcome!");
+        final JLabel description = new JLabel("Begin creating your resume.");
 
         title.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(title, BorderLayout.NORTH);

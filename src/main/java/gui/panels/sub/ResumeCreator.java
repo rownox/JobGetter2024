@@ -16,7 +16,7 @@ public class ResumeCreator extends PanelContainer {
     @Override
     protected void setup() {
 
-        JButton previousPageButton = new JButton("Go Back");
+        final JButton previousPageButton = new JButton("Go Back");
         previousPageButton.addActionListener(e -> {
             panel.setVisible(false);
             MainPanel.cardLayout.show(MainPanel.cardContainer, PanelEnum.MAIN.getContainer().getPanel().getName());
